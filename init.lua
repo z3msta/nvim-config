@@ -2,7 +2,7 @@ vim.cmd("set autoindent")
 vim.cmd("set noexpandtab")
 vim.cmd("set tabstop=4")
 vim.cmd("set shiftwidth=4")
-vim.cmd("set nu")
+vim.cmd("set number relativenumber")
 vim.g.mapleader = " "
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
